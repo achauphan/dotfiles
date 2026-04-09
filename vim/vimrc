@@ -43,7 +43,7 @@ syntax on
 " redraw time infinite (ran into issue reading codeql typescript?)
 "set rdt=0
 set re=0
-colorscheme default
+colorscheme ron
 set hlsearch
 hi Search ctermbg=Green
 hi Search ctermfg=Black
