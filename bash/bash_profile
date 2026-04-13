@@ -1,0 +1,5 @@
+echo "Loading dotfiles/bash_profile..."
+
+alias ebp='vim ~/.bash_profile'
+alias sbp='source ~/.bash_profile'
+
