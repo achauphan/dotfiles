@@ -4,3 +4,6 @@
 [submodule "tmux/tmux-plugins/tmux-nova"]
 	path = tmux/tmux-plugins/tmux-nova
 	url = https://github.com/o0th/tmux-nova
+[submodule "dracula"]
+	path = wezterm/themes/wezterm
+	url = https://github.com/dracula/wezterm.git
