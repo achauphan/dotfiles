@@ -5,3 +5,8 @@ alias sbp='source ~/.bash_profile'
 
 export XDG_CONFIG_HOME=${HOME}/.config
 
+# fzf shell integration
+eval "$(fzf --bash)"
+export FZF_DEFAULT_OPTS="--style default --preview 'fzf-preview.sh {}' --bind 'enter:execute(vim {})+abort' --bind 'focus:transform-header:file --brief {}'"
+export FZF_CTRL_R_OPTS="--style default --no-preview --bind 'enter:accept'"
+
