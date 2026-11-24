@@ -3,7 +3,10 @@ echo "Loading dotfiles/bash_profile..."
 alias ebp='vim ~/.bash_profile'
 alias sbp='source ~/.bash_profile'
 
+export PS1='[\u@\h \W]\$ '
+
 export XDG_CONFIG_HOME=${HOME}/.config
+export FZF_INSTALL=$(which fzf)
 
 # FZF
 #

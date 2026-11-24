@@ -54,13 +54,15 @@ hi Comment ctermfg=LightBlue
 " ===== PLUGINS ===== (https://github.com/junegunn/vim-plug)
 " Install with :PlugInstall
 call plug#begin()
-
-" List your plugins here
 Plug 'rust-lang/rust.vim'
 Plug 'prabirshrestha/vim-lsp'
 Plug 'prabirshrestha/asyncomplete.vim'
 Plug 'prabirshrestha/asyncomplete-lsp.vim'
 Plug 'ctrlpvim/ctrlp.vim'
+Plug $FZF_INSTALL
+if exists('$FZF_INSTALL') && !empty($FZF_INSTALL)
+      Plug $FZF_INSTALL
+endif
 
 call plug#end()
 
